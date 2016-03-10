@@ -30,7 +30,6 @@ cursor.execute("""CREATE TABLE population
 conn.close()
 
 if __name__ == "__main__":
-    app.run()
     import doctest
     doctest.testmod()
     class MyTest(unittest.TestCase):
